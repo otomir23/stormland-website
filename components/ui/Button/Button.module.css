@@ -1,0 +1,28 @@
+.button {
+    border-radius: 0.5em;
+    border: 1px solid #eeeeee;
+    background-color: white;
+    padding: .85em 1em;
+    transition: background-color ease-in-out 250ms, border-color ease-in-out 150ms, color ease-in-out 250ms;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.primary {
+    color: white;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.primary:hover {
+    color: var(--primary);
+    background-color: white;
+}
+
+.secondary {
+    border-color: #eee;
+    color: black;
+    background-color: white;
+}
+.secondary:hover {
+    border-color: black;
+}
