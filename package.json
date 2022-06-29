@@ -1,6 +1,6 @@
 {
-  "name": "stormland",
-  "private": true,
+  "name": "stormland-website",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
